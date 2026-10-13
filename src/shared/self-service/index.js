@@ -1,0 +1,7 @@
+// ทางเข้าเดียวของฟังก์ชันที่ "ทุกตำแหน่งมี": import { selfServiceRoutes, selfServiceNav } from '@/shared/self-service'
+export { selfServiceRoutes } from './routes'
+export { selfServiceNav } from './nav'
+export { SelfServiceProvider, useSelfService } from './context'
+export { useSelfServiceApi } from './hooks'
+export { api as selfServiceApi } from './api'
+export { TYPE_LABEL, STATUS } from './constants'
